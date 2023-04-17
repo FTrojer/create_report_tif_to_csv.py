@@ -1,0 +1,97 @@
+"HER/GRA (BVL) Validation Report for 30SVH
+
+"
+"BVL Statistics
+
+"
+,Herbaceous,Coniferous,Broadleaved,Crop land,Tree crops,Herb/Tree cover,Herb/Crops,other
+2017,0.22786768847468925,0.03658851188855806,0.06883456018953438,0.17320617685511816,0.26536859557370057,8.83266115239737e-05,0.0402766750413898,0.1877694653654858
+2018,0.22790270334591678,0.03658851188855806,0.06883456018953438,0.17309788457215794,0.26536859557370057,8.83266115239737e-05,0.0402766750413898,0.1878427427772185
+2019,0.22787840078689128,0.03648179847250822,0.06883156234097038,0.1729612126561252,0.26550737597655666,7.306756233321595e-05,0.040294352355088846,0.1879722298495262
+2020,0.22791511443897172,0.03631246999278498,0.06881994068137061,0.17275522048846426,0.2662944711098633,3.857231819012767e-05,0.040305324480833085,0.18755888648952193
+2021,0.22809934222605804,0.036241191146761616,0.06884025610180598,0.1725818848844938,0.26695115983063594,3.159732386455536e-05,0.040133058109517124,0.18712151037686295
+Best threshold: 0.630
+Best accuracy: 0.812
+"## HER Statistics
+"
+year,Pixel count,HER fraction,Pixel count change,HER fraction change
+2017,11394483,0.11386311499689133,,
+2018,11416966,0.11408778376110601,22483.0,0.00022466876421467497
+2019,11420976,0.11412785500357814,4010.0,4.007124247212834e-05
+2020,11421028,0.11412837463066255,52.0,5.196270844165518e-07
+2021,11419759,0.11411569373123684,-1269.0,-1.2680899425715486e-05
+Best threshold: 0.560
+Best accuracy: 0.811
+"## GRA Statistics
+"
+year,Pixel count,GRA fraction,Pixel count change,GRA fraction change
+2017,11375883,0.11367724838592336,,
+2018,11352080,0.11343938908802709,-23803.0,-0.00023785929789627014
+2019,11327009,0.11318885888353364,-25071.0,-0.00025053020449344876
+2020,11319067,0.11310949583921603,-7942.0,-7.93630443176041e-05
+2021,11309669,0.11301558323653448,-9398.0,-9.391260268155899e-05
+## BVL Validation report
+"  -  OK
+"
+,check,enabled,file,passed,fail_reason
+0,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2017_010m_30SVH_03035_V09.tif,True,
+1,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2017_proba_filtered_laea.tif,True,
+2,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2018_010m_30SVH_03035_V09.tif,True,
+3,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2018_proba_filtered_laea.tif,True,
+4,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2019_010m_30SVH_03035_V09.tif,True,
+5,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2019_proba_filtered_laea.tif,True,
+6,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2020_010m_30SVH_03035_V09.tif,True,
+7,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2020_proba_filtered_laea.tif,True,
+8,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2021_010m_30SVH_03035_V09.tif,True,
+9,check_projection,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2021_proba_filtered_laea.tif,True,
+10,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2017_010m_30SVH_03035_V09.tif,True,
+11,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2017_proba_filtered_laea.tif,True,
+12,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2018_010m_30SVH_03035_V09.tif,True,
+13,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2018_proba_filtered_laea.tif,True,
+14,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2019_010m_30SVH_03035_V09.tif,True,
+15,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2019_proba_filtered_laea.tif,True,
+16,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2020_010m_30SVH_03035_V09.tif,True,
+17,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2020_proba_filtered_laea.tif,True,
+18,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2021_010m_30SVH_03035_V09.tif,True,
+19,check_extent,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2021_proba_filtered_laea.tif,True,
+20,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2017_010m_30SVH_03035_V09.tif,True,
+21,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2017_proba_filtered_laea.tif,True,
+22,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2018_010m_30SVH_03035_V09.tif,True,
+23,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2018_proba_filtered_laea.tif,True,
+24,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2019_010m_30SVH_03035_V09.tif,True,
+25,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2019_proba_filtered_laea.tif,True,
+26,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2020_010m_30SVH_03035_V09.tif,True,
+27,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2020_proba_filtered_laea.tif,True,
+28,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2021_010m_30SVH_03035_V09.tif,True,
+29,check_resolution,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2021_proba_filtered_laea.tif,True,
+30,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2017_010m_30SVH_03035_V09.tif,True,
+31,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2017_proba_filtered_laea.tif,True,
+32,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2018_010m_30SVH_03035_V09.tif,True,
+33,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2018_proba_filtered_laea.tif,True,
+34,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2019_010m_30SVH_03035_V09.tif,True,
+35,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2019_proba_filtered_laea.tif,True,
+36,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2020_010m_30SVH_03035_V09.tif,True,
+37,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2020_proba_filtered_laea.tif,True,
+38,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2021_010m_30SVH_03035_V09.tif,True,
+39,check_value_range,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2021_proba_filtered_laea.tif,True,
+40,validate_with_reference,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/probas/30SVH_refyear2018_proba_filtered_laea.tif,True,
+41,check_consistency_over_years,True,/mnt/ongoing/processing/2771_VLCC_EEA/02_Interim_Products/BVL/BVL_20221214/30SVH/CLMS_HRL_VLCC_BVL_2021_010m_30SVH_03035_V09.tif,True,
+## HER/GRA Validation report
+"  -  NOT OK
+"
+,check,enabled,file,passed,fail_reason
+0,compare_her_frac_to_bvl,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2018_010m_30SVH.tif,False,HER_binary frac (0.11408778376110601) too far off from BVL frac 0.22790270334591678
+1,compare_her_frac_to_bvl,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2017_010m_30SVH.tif,False,HER_binary frac (0.11386311499689133) too far off from BVL frac 0.22786768847468925
+2,compare_her_frac_to_bvl,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2019_010m_30SVH.tif,False,HER_binary frac (0.11412785500357814) too far off from BVL frac 0.22787840078689128
+3,compare_her_frac_to_bvl,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2020_010m_30SVH.tif,False,HER_binary frac (0.11412837463066255) too far off from BVL frac 0.22791511443897172
+4,compare_her_frac_to_bvl,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2021_010m_30SVH.tif,False,HER_binary frac (0.11411569373123684) too far off from BVL frac 0.22809934222605804
+5,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2018_010m_30SVH.tif,True,
+6,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/GRA_2018_010m_30SVH.tif,True,
+7,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2019_010m_30SVH.tif,True,
+8,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/GRA_2019_010m_30SVH.tif,True,
+9,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2020_010m_30SVH.tif,True,
+10,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/GRA_2020_010m_30SVH.tif,True,
+11,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/HER_2021_010m_30SVH.tif,True,
+12,check_output_frac_changes,True,/mnt/imagery/clcplus/vlcc/grassland_processing/result/v1/30SVH/GRA_2021_010m_30SVH.tif,True,
+13,check_output_max_frac_changes,True,HER_binary overall,True,
+14,check_output_max_frac_changes,True,GRA_binary overall,True,
