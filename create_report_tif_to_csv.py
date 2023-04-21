@@ -10,6 +10,7 @@ Description: Open and read two .tif files and generate .csv file containing comp
 -accuracy (assuming that first .tif file serves as ground truth)
 
 
+
              Necessary Parameters:
                  - path to .tif file 1 (e.g. r"C:\gv\test_area_raster.tif")
                  - path to .tif file 2 (e.g. r"C:\gv\test_area_raster.tif")
